@@ -1,0 +1,156 @@
+/*sm*/
+@media screen and (min-width: 640px) {
+  .fresh_content {
+    display: block;
+  }
+}
+
+/*lg*/
+@media screen and (min-width: 1024px) {
+  .hero {
+    flex-direction: row;
+  }
+  .hero_img {
+    transform: rotate(3deg);
+    transition: transform 0.3s ease;
+  }
+
+  .hero_img:hover {
+    transform: rotate(3deg) translate(-4px, -4px);
+  }
+  .the_articles {
+    padding-top: 0px;
+  }
+  .articles {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    align-items: flex-start;
+  }
+  .article_item {
+    flex-direction: row;
+    justify-content: start;
+    gap: 30px;
+  }
+  .article_item img {
+    width: 200px;
+    height: 100px;
+  }
+  .category_2 {
+    top: 20px;
+    left: 135px;
+  }
+
+  .more_details {
+    display: flex;
+    gap: 40px;
+  }
+  .author {
+    margin-right: 22%;
+  }
+  .article_right {
+    position: sticky;
+    top: 40px;
+    width: 40%;
+  }
+
+  .the_authors_inner {
+    flex-direction: row;
+  }
+  .authors_section h4 {
+    font-size: 30px;
+  }
+  .position {
+    font-size: 16px;
+  }
+  .authors {
+    gap: 40px;
+    padding: 32px;
+  }
+  .the_rebellion {
+    flex-direction: row;
+    align-items: center;
+    gap: 64px;
+  }
+
+  .rebellion_left {
+    width: 100%;
+    margin-top: 20px;
+  }
+  .rebelion_right {
+    width: 100%;
+  }
+  .rebellion h4 {
+    font-size: 34px;
+  }
+  .rebellion .description {
+    font-size: 20px;
+    line-height: 1.5;
+    padding: 16px;
+  }
+  .the_list p {
+    font-weight: 600;
+    font-size: 18px;
+  }
+  .the_footer {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .footer_under {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .footer_category {
+    margin-right: 30px;
+  }
+  .new_letter {
+    width: 35%;
+  }
+}
+
+/*xl*/
+@media screen and (min-width: 1280px) {
+  nav {
+    display: block;
+  }
+  nav ul li a {
+    font-weight: 600;
+  }
+  nav ul li a:hover {
+    color: #fc7c50;
+  }
+  .navigation_left {
+    font-size: 30px;
+  }
+
+  .hamburger {
+    display: none;
+  }
+
+  .fa-star {
+    margin-left: 16px;
+    display: inline-block;
+    color: rgb(209, 207, 207);
+  }
+
+  .subscribe {
+    display: block;
+  }
+
+  .subscribe_btn {
+    background: #ffd15b;
+    color: black;
+    padding: 8px 16px;
+    width: 100%;
+    border: 2px solid black;
+    font-weight: 700;
+    cursor: pointer;
+    font-size: 14px;
+    transition: transform 0.1s ease;
+    border-radius: 20px;
+  }
+
+  .subscribe_btn:hover {
+    transform: translate(2px, 2px);
+  }
+}
